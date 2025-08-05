@@ -17,8 +17,10 @@ picom
 yazi
 rofi
 polybar
-neofetch
+hyfetch
 ttf-cascadia-code-nerd
 ttf-liberation
 ttf-inconsolata
 noto-fonts
+noto-fonts-emoji
+playerctl

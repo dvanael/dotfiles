@@ -1,2 +1,4 @@
 google-chrome
+firealpaca
 spotify
+visual-studio-code-bin
