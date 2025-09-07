@@ -31,6 +31,8 @@ echo "==> Clonando plugins do Zsh..."
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+chsh -s /bin/zsh
+
 echo "==> Instalando yay (AUR helper)..."
 sudo pacman -S --needed --noconfirm git base-devel
 rm -rf yay
