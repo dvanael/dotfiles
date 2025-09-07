@@ -1,4 +1,9 @@
 google-chrome
 firealpaca
 spotify
-visual-studio-code-bin
+visual-studio-code-bini
+lxappearance-gtk3
+breeze-gtk
+papirus-icon-theme
+catppuccin-gtk-theme-mocha
+xcursor-simp1e-catpuccin-mocha
