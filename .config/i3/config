@@ -15,7 +15,7 @@ exec --no-startup-id picom
 exec_always --no-startup-id killall polybar
 exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
 
-exec_always feh --bg-fill ~/.config/wallpapers/whale.jpg
+exec_always feh --bg-fill ~/.config/wallpapers/blackhole.png
 
 exec --no-startup-id urxvt -e hyfetch -c ~/.config/hyfetch/config.json -t && sleep 2s && xdotool search --name "hyfetch" windowunmap %@
 
