@@ -1,0 +1,11 @@
+[user]
+	email = anael.noki@gmail.com
+	name = Ana Barbosa
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[alias]
+	br = branch
+	ci = commit
+	st = status
