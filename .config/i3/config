@@ -17,14 +17,25 @@ exec_always --no-startup-id ~/.config/polybar/scripts/launch.sh
 
 exec_always feh --bg-fill ~/.config/wallpapers/blackhole.png
 
-exec --no-startup-id urxvt -e hyfetch -c ~/.config/hyfetch/config.json -t && sleep 2s && xdotool search --name "hyfetch" windowunmap %@
 
+# Menu
 bindsym $mod+space exec --no-startup-id ~/.config/rofi/launchers/type-1/launcher.sh
 
-
+# Power Menu
 bindsym $mod+Shift+p exec --no-startup-id ~/.config/rofi/powermenu/type-2/powermenu.sh
 
+#Screenshot
 bindsym $mod+Shift+s exec flameshot gui
+
+# -- Teclas Fn
+# Brilho da tela
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+
+# Controle de player 
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
