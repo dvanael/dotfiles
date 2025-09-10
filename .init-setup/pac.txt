@@ -17,13 +17,23 @@ picom
 yazi
 rofi
 polybar
+dunst
 hyfetch
+
 lxappearance-gtk3
 ttf-cascadia-code-nerd
 ttf-liberation
 ttf-inconsolata
 noto-fonts
 noto-fonts-emoji
+
 playerctl
 brightnessctl
+flameshot
 
+wine
+wine-mono
+lutris
+winetracks
+
+python

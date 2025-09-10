@@ -1,5 +1,4 @@
-google-chrome
-firealpaca
+brave-bin
 spotify
 visual-studio-code-bini
 lxappearance-gtk3
@@ -7,3 +6,7 @@ breeze-gtk
 papirus-icon-theme
 catppuccin-gtk-theme-mocha
 xcursor-simp1e-catpuccin-mocha
+veikk-tablet-bin
+hydra-launcher-bin
+NetworkManager
+
