@@ -107,3 +107,16 @@ alias config='/usr/bin/git --git-dir=/home/anabs/.cfg/ --work-tree=/home/anabs'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
+
+alias ls='ls --color=auto'
+
+alias up='brightnessctl set 5%+'
+alias down='brightnessctl set 5%-'
+
+alias vim='nvim'
+
+alias gat='git add'
+alias got='git commit'
+alias gut='git push'
