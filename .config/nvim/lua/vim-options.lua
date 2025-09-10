@@ -7,3 +7,7 @@ vim.cmd("set shiftwidth=2")
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
+
+vim.opt.number = true
+vim.opt.relativenumber = true
+
