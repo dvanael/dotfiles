@@ -117,6 +117,11 @@ alias down='brightnessctl set 5%-'
 
 alias vim='nvim'
 
+alias py='python' 
+
 alias gat='git add'
 alias got='git commit'
-alias gut='git push'
+alias gut='git pull -r && git push'
+
+alias mips='java -jar ~/Apps/Mars4_5.jar'
+
